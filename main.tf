@@ -19,6 +19,7 @@ module "record" {
 
   content   = each.key
   name      = "@"
+  priority  = each.value
   ttl       = 1
   type      = "MX"
   zone_name = var.domain
