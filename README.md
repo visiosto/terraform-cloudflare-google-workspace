@@ -21,7 +21,7 @@ cannot create the verification records.
 
 | Name                                 | Version |
 | ------------------------------------ | ------- |
-| visiosto/terraform-cloudflare-record | 0.2.1   |
+| visiosto/terraform-cloudflare-record | 0.3.1   |
 
 ## Resources
 
