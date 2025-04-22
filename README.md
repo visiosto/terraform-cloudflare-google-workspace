@@ -29,10 +29,11 @@ No resources.
 
 ## Inputs
 
-| Name   | Description                                                                                           | Type     | Default | Required |
-| ------ | ----------------------------------------------------------------------------------------------------- | -------- | ------- | :------: |
-| domain | The domain to set up the Google Worspace DNS records for                                              | `string` | `""`    |   yes    |
-| legacy | Whether to use the legacy MX records for Google Workspace or whether to use the single, new MX record | `bool`   | `false` |    no    |
+| Name      | Description                                                                                           | Type     | Default | Required |
+| --------- | ----------------------------------------------------------------------------------------------------- | -------- | ------- | :------: |
+| legacy    | Whether to use the legacy MX records for Google Workspace or whether to use the single, new MX record | `bool`   | `false` |    no    |
+| name      | The name of the DNS record to use to set up the Google Workspace                                      | `string` | `"@"`   |    no    |
+| zone_name | The name of the DNS zone to create the records in                                                     | `string` | `""`    |   yes    |
 
 ## Outputs
 

@@ -18,9 +18,9 @@ module "record" {
   for_each = var.legacy ? local.legacy_mx_records : local.mx_records
 
   content   = each.key
-  name      = "@"
+  name      = var.name
   priority  = each.value
   ttl       = 1
   type      = "MX"
-  zone_name = var.domain
+  zone_name = var.zone_name
 }
