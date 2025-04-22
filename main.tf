@@ -13,7 +13,7 @@ locals {
 }
 
 module "record" {
-  source = "github.com/visiosto/terraform-cloudflare-record?ref=v0.3.1"
+  source = "github.com/visiosto/terraform-cloudflare-record?ref=v0.3.2"
 
   for_each = var.legacy ? local.legacy_mx_records : local.mx_records
 
