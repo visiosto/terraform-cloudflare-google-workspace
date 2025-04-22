@@ -7,6 +7,7 @@ variable "legacy" {
 variable "name" {
   description = "The name of the DNS record to use to set up the Google Workspace."
   type        = string
+  default     = "@"
 }
 
 variable "zone_name" {
