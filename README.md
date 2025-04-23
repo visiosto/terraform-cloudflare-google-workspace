@@ -8,7 +8,7 @@ cannot create the verification records.
 
 | Name                  | Version  |
 | --------------------- | -------- |
-| terraform             | >= 1.2.0 |
+| terraform             | >= 1.3.0 |
 | cloudflare/cloudflare | >= 5.0.0 |
 
 ## Providers
@@ -21,7 +21,7 @@ cannot create the verification records.
 
 | Name                                 | Version |
 | ------------------------------------ | ------- |
-| visiosto/terraform-cloudflare-record | 0.3.2   |
+| visiosto/terraform-cloudflare-record | 0.3.3   |
 
 ## Resources
 

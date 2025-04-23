@@ -10,8 +10,8 @@ and this project adheres to
 
 ### Changed
 
-- Updated `terraform-cloudflare-record` to `v0.3.2`.
-- Update minimum required Terraform version to `1.2.0`.
+- Updated `terraform-cloudflare-record` to `v0.3.3`.
+- Update minimum required Terraform version to `1.3.0`.
 
 ## [0.3.0] - 2025-04-22
 
