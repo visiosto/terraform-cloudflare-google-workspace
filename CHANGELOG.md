@@ -38,6 +38,8 @@ and this project adheres to
 - Initial release of the module for creating Google Workspace MX records on
   Cloudflare.
 
+[unreleased]:
+  https://github.com/visiosto/terraform-cloudflare-google-workspace/compare/v0.3.0...HEAD
 [0.3.0]:
   https://github.com/visiosto/terraform-cloudflare-google-workspace/compare/v0.2.0...v0.3.0
 [0.2.0]:
